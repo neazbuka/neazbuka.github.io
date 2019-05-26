@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim|Amatic+SC|Caveat|Pattaya|Press+Start+2P|Rubik+Mono+One&display=swap');
+
+
+
+
+body{
+          background:linear-gradient(to right,blue,red);
+}
+.logotip{
+font-size:80px;
+    margin-left: 25px;
+  
+color: white;
+    text-decoration: none;
+border: 5px solid white;
+border-radius:25px;
+padding: 5px;
+position: relative;
+top:50px;}
+.log1{
+       color:blue;
+    text-decoration: none;
+  position: absolute;
+    top: 200px;
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+  
+
+ 
+    
+    }
+.log2{
+           color:blue;
+    text-decoration: none;
+  
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+ 
+
+ 
+     position: absolute;
+    top: 290px;
+    width: 100%;
+}
+.log3{
+           color:blue;
+    text-decoration: none;
+  
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+
+ 
+     position: absolute;
+    top: 380px;
+    width: 100%;
+}
+.log4{
+           color:blue;
+    text-decoration: none;
+  
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+
+ 
+     position: absolute;
+    top: 470px;
+    width: 100%;
+}
+header{
+   
+    width:100vw;
+ 
+    z-index: 23;
+  
+    font-family: 'Akronim', cursive;
+background:  linear-gradient(90deg, red, blue);
+    font-size:25px;   
+
+    margin-bottom: 0;
+height: 580px;
+top: 0;}
+body{margin: 0;}

@@ -1,0 +1,910 @@
+
+@import url('https://fonts.googleapis.com/css?family=Akronim|Amatic+SC|Caveat|Pattaya|Press+Start+2P|Rubik+Mono+One&display=swap');
+.arrow{
+    background-image: url("arrow.png");
+    position: absolute;
+    display: none;
+    left: 800px;
+    width: 1000px;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+.txt{
+    width: 1000px;
+    
+}
+.hide{
+
+    top: 0;
+    left: 0;
+    font-family: 'Amatic SC';
+    width: 5000px; 
+    height: 5000px;
+    position: fixed;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    font-size: 105px;
+    z-index: 500;
+    color: white;
+}
+.arrow2{
+    background-image: url("arrow2.png");
+    position: absolute;
+    top: 700px;
+    width: 1000px;
+    left: -200px;
+    display: none;
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+.arrow3{
+    background-image: url("arrow3.png");
+    position: absolute;
+    top: 1500px;7
+    display: none;
+    width: 1500px;
+    left: -200px;
+    height: 1000px;
+    -webkit-background-size: cover;
+    background-size:cover;
+    z-index: 200;
+    background-repeat: no-repeat;
+}
+.foto1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-left: 25px;
+    border-radius: 50%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url("michail.jpg");
+}
+.alo{font-family: 'Amatic SC';
+    color: white;
+   font-size: 25px;
+}.list2{
+    display: flex;
+    color: white;
+
+    font-size: 15px;
+    position: relative;
+}
+.hska{font-family: 'Amatic SC';
+    margin-left: 150px;
+}
+.foto2{
+    width: 300px;
+     border-radius: 50%;
+    height: 300px;
+    position: relative;
+    margin-left: 25px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url("vicheslav.jpg");
+}
+.foto3{
+    width: 300px;
+    height: 300px;
+     border-radius: 50%;
+    position: relative;
+    margin-left: 25px;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center;
+    background-image: url("aleksei.jpg");
+}
+.foto4{
+    width: 300px;
+    height: 300px;
+     border-radius: 50%;
+    position: relative;
+    margin-left: 25px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url("erjan.jpg");
+}
+.foto5{
+    width: 300px;
+    height: 300px;
+     border-radius: 50%;
+    position: relative;
+    margin-left: 25px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url("sobaka.jpg");
+}
+.foto6{
+    width: 300px;
+    height: 300px;
+     border-radius: 50%;
+    position: relative;
+    margin-left: 25px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url("%D1%8B%D1%89%D0%B8%D1%84%D0%BB%D1%84.jpg");
+}
+.list{
+    display: flex;
+}
+
+.small{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    z-index: 200;
+  font-family: 'Caveat';height: 107%;
+    left: 0;
+    top: -650px;
+    width: 105%;
+    background-color: rgba(0,0,0,0.7);
+}
+.small>h1{
+    position: relative;
+    top: 500px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.small>a{
+    position: relative;
+    top: 500px;
+}
+main{
+ 
+   position: relative;
+    top: -20px;
+   
+width:100vw;
+    
+    
+}
+body{
+          background:linear-gradient(to right,blue,red);
+}
+
+
+.logotip{
+font-size:80px;
+    margin-left: 25px;
+  
+color: white;
+    text-decoration: none;
+border: 5px solid white;
+border-radius:25px;
+padding: 5px;
+position: relative;
+top:50px;}
+.log1{
+       color:blue;
+    text-decoration: none;
+  position: absolute;
+    top: 200px;
+    width: 100%;
+    display: block;
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+  
+
+ 
+    
+    }
+.html2{
+    height: 500px;
+}
+.log2{
+           color:blue;
+    text-decoration: none;
+  
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+ 
+
+ 
+     position: absolute;
+    top: 290px;
+    width: 100%;
+}
+.log3{
+           color:blue;
+    text-decoration: none;
+  
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+
+ 
+     position: absolute;
+    top: 380px;
+    width: 100%;
+}
+.log4{
+           color:blue;
+    text-decoration: none;
+  
+    font-size: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+
+ 
+     position: absolute;
+    top: 470px;
+    width: 100%;
+}
+header{
+   
+    width:100vw;
+ 
+    z-index: 23;
+  
+    font-family: 'Akronim', cursive;
+background:  linear-gradient(90deg, red, blue);
+    font-size:25px;   
+
+    margin-bottom: 0;
+height: 580px;
+top: 0;}
+body{margin: 0;}
+
+.fontawensome{font-family: 'Press Start 2P', cursive;
+text-align: center;
+    position: relative;
+   top: 150px;
+    font-size: 25px;
+color: white;
+}
+.fontawensome23{font-family: 'Press Start 2P', cursive;
+text-align: center;
+    position: relative;
+  
+    font-size: 25px;
+color: white;
+}
+.firstimg{width: 300px;
+    display: block;
+    position: relative;
+left: -2vw;
+    top:190px;
+    
+     z-index: 5;
+    height: 300px;
+    
+
+margin-left: 50px;}
+.secondimg{
+       width: 300px;
+    height: 300px;
+     z-index: 5;
+      position: relative;
+left: 10vw;
+    top:190px;
+  display: block;
+   
+    
+}
+.thirdimg{
+    top:200px;
+     z-index: 5;
+   position: relative;
+
+    top:190px;
+  left: 10vw;
+    display: block;
+    height: 300px;
+    width: 300px;
+    
+   
+    
+}
+.fofth{
+    width: 300px;
+    height: 300px;
+    z-index: 5;
+    transition: all 1s;
+      position: relative;
+
+    top:190px;
+    left: 10vw;
+    
+    display: block;
+}
+.fifth{
+  width: 300px;
+     z-index: 5;
+   height: 300px;
+    
+         position: relative;
+
+    top:190px;
+  left: 10vw;
+    display: block;
+}
+.six{
+    width: 300px;
+    z-index: 5;
+  
+    height: 300px;
+      position: relative;
+
+   top:190px;
+  left: 10vw;
+    display: block;
+}
+.seven{
+    width: 300px;
+    z-index: 4;
+
+    height: 300px;
+     position: relative;
+
+    top:190px;
+  left: 10vw;
+    display: block;
+}
+.eight{
+    width: 300px;
+    z-index: 5;
+
+    height: 300px;
+      position: relative;
+
+   top:190px;
+      left: 10vw;
+    display: block;
+}
+.nine{
+    width: 300px;
+    z-index: 5;
+
+    height: 300px;
+    position: relative;
+
+    top:190px;
+     left: 10vw;
+    display: block;
+}
+.ten{
+    width: 300px;
+    z-index: 5;
+ 
+    height: 300px;
+    position: relative;
+  left: 10vw;
+    display: block;
+    top:190px;
+    
+}
+.eleven{
+    width: 300px;
+    z-index: 5;
+    left: 10vw;
+    display: block;
+    height: 300px;
+      position: relative;
+
+   top:190px;
+   
+}
+.inline{
+   
+    height: 3100px;
+    top: -150px;
+    position: relative;
+   
+    
+}
+.img{
+    margin-bottom: 50px;
+}
+img:hover{ width: 500px;
+  height: 500px;
+border-radius: 25px;
+z-index: 100;}
+img:hover{ width: 500px;
+  height: 500px;
+border-radius: 25px;
+z-index: 1000;}
+.priroda{
+font-family: 'Rubik Mono One', sans-serif;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: white;
+
+}
+.priroda1{
+font-family: 'Rubik Mono One', sans-serif;
+    position: relative;
+    top: 150px;
+
+    text-align: center;
+    color: white;
+
+}
+.inline1{
+     height: 3100px;
+    
+    position: relative;
+      
+}
+.inline2{
+ 
+      height: 3100px;
+    top: 50px;
+    position: relative;
+      
+}
+.boximg{
+    position: relative;
+   
+}
+.inline3{
+
+       height: 3300px;
+    top: 50px;
+    position: relative;
+      
+}
+.priroda3{
+font-family: 'Rubik Mono One', sans-serif;
+    position: relative;
+    top: 150px;
+
+    text-align: center;
+    color: white;
+
+}
+.firstimg:hover{
+    left:200px;
+}
+.star{
+  
+}
+.footer{
+    
+    position: relative;
+    
+  
+}
+.star{
+    background-image: url("star.png");
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size:contain;
+    
+}
+footer{background:linear-gradient(to right,red,blue);
+    position: relative;
+    display: block;
+    height: 300px;
+   
+       font-family: 'Akronim', cursive; 
+}
+p{
+    color: white;
+    font-size: 25px;
+position: relative;
+    top: 50px;
+    text-align: center;
+    
+}
+
+
+ 
+@media  (min-device-width : 768px) and (max-device-width : 1024px) {
+    .hide{
+        display: none;
+    }
+    .small>h1{
+        font-size: 45px;
+    }
+    .small>a{
+        font-size: 45px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+        .firstimg{
+        left: 50vw;
+    }
+       .secondimg{
+        left: 50vw;
+    }
+       .thirdimg{
+        left: 50vw;
+    }
+       .fofth{
+        left: 50vw;
+    }
+      .fith{
+        left: 50vw;
+    }
+      .six{
+        left: 50vw;
+    }
+      .seven{
+        left: 50vw;
+    }
+      .eight{
+        left: 50vw;
+    }
+       .nine{
+        left: 50vw;
+    }
+       .ten{
+        left: 50vw;
+    }
+       .eleven{
+        left: 50vw;
+    }
+}
+@media  (min-device-width : 1024px)  {
+    .hide{display: none;}
+        .arrow{
+        display: block;
+    }
+     .arrow2{
+        display: block;
+    }
+     .arrow3{
+        display: block;
+    }.html2{
+        position: relative;
+        left: 200px;
+        font-family: ;
+    }
+    .log{
+  
+    color:blue;
+    font-size: 25px;
+    text-decoration: none;
+
+    font-family: 'Akronim', cursive;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin:5px;position: relative;
+top:50px;
+    
+    
+    
+}
+    .small{
+        display: none;
+    }
+
+img{
+    
+    position: absolute;
+    transition: all 1s;
+    -webkit-transition-timing-function:  linear;
+      -o-transition-timing-function:  linear;
+       transition-timing-function:  linear;
+}
+main{
+    position: relative;
+    top: -21px;
+    height:2000px;
+    width: 1920px;
+
+}
+body{
+    width: 1920px;
+  
+       background:  linear-gradient(90deg,blue, red,blue);
+    
+}
+.logotip{
+font-size: 50px;
+color: white;
+    height: 50px;
+    text-decoration: none;
+border: 5px solid white;
+border-radius:25px;
+padding: 5px;
+position: relative;
+top:50px;}
+    .block{
+        display: flex;
+    }
+.log1{
+       margin-left: 15px;
+       color:linear-gradient(45deg,blue, red,blue);
+    text-decoration: none;
+   width: 200px;
+    font-size:25px;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+  position: relative;
+top:50px;
+   
+    
+    }
+    .log2{
+           margin-left: 15px;
+       color:linear-gradient(45deg,blue, red,blue);
+    text-decoration: none;
+   width: 200px;
+    font-size: 25px;
+        height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+  position: relative;
+top:50px;
+
+    
+    }
+       .log3{
+              margin-left:15px;
+       color:linear-gradient(45deg,blue, red,blue);
+    text-decoration: none;
+   width: 200px;
+    font-size: 25px;
+           height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+  position: relative;
+top:50px;
+    
+    
+    }
+       .log4{
+              margin-left: 15px;
+       color:linear-gradient(45deg,blue, red,blue);
+    text-decoration: none;
+  width: 200px;
+           height: 50px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+  position: relative;
+top:50px;
+ 
+    
+    }
+ 
+header{position: sticky;
+    top: 50px;
+    z-index: 23;
+ 
+ display: flex;
+    
+    font-family: 'Akronim', cursive;
+background:  linear-gradient(90deg, red, blue);
+    font-size:25px;   
+width: 1920px;
+    margin-bottom: 0;
+height: 150px;
+top: 0;}
+body{margin: 0;}
+.fontawensome{font-family: 'Press Start 2P', cursive;
+text-align: center;
+color: white;
+}
+.firstimg{width: 300px;
+    position: absolute;
+    top:300px;
+    left: 50px;
+   
+     z-index: 5;
+    height: 300px;
+    
+
+margin-left: 50px;}
+.secondimg{
+    width: 300px;
+    height: 300px;
+     z-index: 5;
+     position: absolute;
+    top: 500px;
+    left: 400px;
+   
+   
+    
+}
+    
+
+.thirdimg{
+    top:200px;
+     z-index: 5;
+    position: absolute;
+    left: 400px;
+    height: 300px;
+    width: 300px;
+    
+   
+    
+}
+.fofth{
+    width: 300px;
+    height: 300px;
+    z-index: 5;
+    transition: all 1s;
+    top: 300px;
+    left: 700px;
+    position: absolute;
+}
+.fifth{
+   min-width: 1000px;
+     z-index: 4;
+   min-height: 500px;
+    
+    border-left: red 5px solid;
+      border-right:  blue 5px solid;
+      border-bottom: red 5px solid;
+     border-top: blue 5px solid;
+      top: 150px;
+    left: 100px;
+    position: absolute;
+}
+.six{
+    width: 300px;
+    z-index: 5;
+    top: 200px;
+  left: 1000px;
+    height: 300px;
+    position: absolute;
+}
+.seven{
+    width: 500px;
+    z-index: 4;
+  left: 800px;
+    top: 500px;
+    height: 300px;
+    position: absolute;
+}
+.eight{
+    width: 500px;
+    z-index: 5;
+  left: 1300px;
+    top: 150px;
+    height: 300px;
+    position: absolute;
+}
+.nine{
+    width: 300px;
+    z-index: 5;
+  left: 1300px;
+    top: 400px;
+    height: 300px;
+    position: absolute;
+}
+.ten{
+    width: 300px;
+    z-index: 5;
+  left: 1500px;
+    top: 600px;
+    height: 300px;
+    position: absolute;
+}
+
+.eleven{
+    width: 300px;
+    z-index: 5;
+  left: 1800px;
+    top: 400px;
+    height: 300px;
+    position: absolute;
+}
+
+
+
+.inline{
+    margin:0px 110px;
+    height: 500px;
+    top: -150px;
+    position: relative;
+   
+    
+}
+
+img:hover{ width: 500px;
+  height: 500px;
+border-radius: 25px;
+z-index: 100;}
+img:hover{ width: 500px;
+  height: 500px;
+border-radius: 25px;
+z-index: 1000;}
+.priroda{
+font-family: 'Rubik Mono One', sans-serif;
+    position: relative;
+    top: 150px;
+    text-align: center;
+    color: white;
+
+}
+.priroda1{
+font-family: 'Rubik Mono One', sans-serif;
+    position: absolute;
+    top: 1800px;
+ left: 1000px;
+    text-align: center;
+    color: white;
+
+}
+.inline1{
+  margin: 0 110px;
+    height: 500px;
+    top: 750px;
+    position: absolute;
+      
+}
+.inline2{
+  margin: 0 110px;
+    height: 500px;
+    top: 1550px;
+    position: absolute;
+      
+}
+.boximg{
+    position: relative;
+    top: 200px;
+}
+
+
+.inline3{
+  margin: 0 110px;
+    height: 500px;
+    top: 2500px;
+    position: absolute;
+      
+}
+
+.priroda3{
+font-family: 'Rubik Mono One', sans-serif;
+    position: absolute;
+    top: 150px;
+ left: 1000px;
+    text-align: center;
+    color: white;
+
+}
+main{position: relative;
+left: -305px;}
+.firstimg:hover{
+    left:200px;
+}
+
+.footer{
+    display: flex;
+    position: relative;
+    top: 3100px;
+    left: 150px;
+  
+}
+.star{
+    background-image: url("star.png");
+    width: 200px;
+    height: 100px;
+    -webkit-background-size: cover;
+    background-size:cover;
+    
+}
+footer{
+    top: 200px;    position: relative;
+    top: 1830px;
+    display: block;
+    height: 200px;
+       font-family: 'Akronim', cursive; 
+}
+    
+}
+main{
+    position: relative;
+    top: 50px;
+}
